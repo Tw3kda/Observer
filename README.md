@@ -1,4 +1,11 @@
+## Nombres:
+Katherin Juliana Moreno Carvajal, Santiago Navarro Cuy y Mariana Salas Gutiérrez
+
 # Observer - Caso práctico
+
+### Resultado
+
+![image](https://github.com/Tw3kda/Observer/raw/main/terminal.png)
 
 ### Intención
 
