@@ -28,3 +28,7 @@ application {
     // Define the main class for the application.
     mainClass = 'edu.unisabana.dyas.patterns.observer.ObserverMain'
 }
+
+run {
+    standardInput = System.in
+}
