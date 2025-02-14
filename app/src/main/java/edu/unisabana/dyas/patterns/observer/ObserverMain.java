@@ -32,10 +32,11 @@ public class ObserverMain {
 
         // Ciclo en ejecución para cambios en runtime o tiempo real.
         while (true) {
-            System.out.println("\nSelecciona (0, 1 o 2):");
+            System.out.println("\nSelecciona:");
             System.out.println("0. Salir");
             System.out.println("1. Cambiar formato de fecha");
             System.out.println("2. Cambiar formato de dinero");
+            System.out.print("Ingresa: ");
             int command = scanner.nextInt();
             scanner.nextLine(); // Limpiar el buffer
 
@@ -46,10 +47,11 @@ public class ObserverMain {
             switch (command) {
                 case 1: // Cambiar formato de fecha
                     System.out.println("");
-                    System.out.println("Selecciona formato de fecha:");
+                    System.out.println("Selecciona un formato de fecha:");
                     System.out.println("1. dd/MM/yyyy");
                     System.out.println("2. yyyy-MM-dd");
                     System.out.println("3. MM-dd-yyyy");
+                    System.out.print("Ingresa: ");
                     int dateOption = scanner.nextInt();
                     scanner.nextLine(); // Limpiar el buffer
 
@@ -64,7 +66,7 @@ public class ObserverMain {
                             conf.setDefaultDateFormat(new SimpleDateFormat("MM-dd-yyyy"));
                             break;
                         default:
-                            System.out.println("Incorrecto. Pruebe de nuevo.");
+                            System.out.println("Error. Pruebe de nuevo.");
                             break;
                     }
                     break;
@@ -75,6 +77,7 @@ public class ObserverMain {
                     System.out.println("1. ###,#00.00");
                     System.out.println("2. ###,#00");
                     System.out.println("3. ###,###.00");
+                    System.out.print("Ingresa: ");
                     int moneyOption = scanner.nextInt();
                     scanner.nextLine();
 
@@ -89,13 +92,13 @@ public class ObserverMain {
                             conf.setMoneyFormat(new DecimalFormat("###,##0.00"));
                             break;
                         default:
-                            System.out.println("Incorrecto. Pruebe de nuevo.");
+                            System.out.println("Error. Pruebe de nuevo.");
                             break;
                     }
                     break;
 
                 default:
-                    System.out.println("Incorrecto. Pruebe de nuevo.");
+                    System.out.println("Error. Pruebe de nuevo.");
                     break;
             }
         }
