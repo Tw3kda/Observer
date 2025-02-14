@@ -5,7 +5,8 @@ Katherin Juliana Moreno Carvajal, Santiago Navarro Cuy y Mariana Salas Gutiérre
 
 ### Resultado
 
-![image](https://github.com/Tw3kda/Observer/raw/main/terminal.png)
+![image](https://github.com/Tw3kda/Observer/raw/main/terminal2.png)
+![image](https://github.com/Tw3kda/Observer/raw/main/gradle.png)
 
 ### Intención
 
